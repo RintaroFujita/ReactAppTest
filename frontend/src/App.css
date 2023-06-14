@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+  background-color: gray;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.category-filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.category-filter button {
+  padding: 8px 16px;
+  margin: 5px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.category-filter button.active {
+  background-color: #61dafb;
+  color: #000;
+}
+
+.category-filter button:hover {
+  background-color: #45b8d8;
+}
+
+.category-filter button:active {
+  background-color: #2383a8;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  padding: 10px;
+  background-color: #282c34;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.task-item .category {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.task-item button {
+  padding: 5px 10px;
+  background-color: #61dafb;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.task-item button:hover {
+  background-color: #45b8d8;
+}
+
+.task-item button:active {
+  background-color: #2383a8;
+}
+
+.task-input {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 中央に配置するために追加 */
+  margin-top: 20px; /* 上部の余白を追加 */
+}
+
+.task-input input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #61dafb;
+  border-radius: 4px;
+}
+
+.task-input button {
+  padding: 8px 16px;
+  background-color: #61dafb;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.task-input button:hover {
+  background-color: #45b8d8;
+}
+
+.task-input button:active {
+  background-color: #2383a8;
+}
